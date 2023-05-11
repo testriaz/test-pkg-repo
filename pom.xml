@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.test.pkg</groupId>
 	<artifactId>test-pkg-proj</artifactId>
-	<version>1.0</version>
+	<version>1.2</version>
 	<name>test-pkg-proj</name>
 	<description>test-pkg-proj</description>
 	<properties>
@@ -38,24 +38,24 @@
 	<distributionManagement>
 		<repository>
 			<id>github</id>
-			<name>GitHub ManjunathPrabhakar Apache Maven Packages</name>
-			<url>https://maven.pkg.github.com/testriaz/github-example-package</url>
+			<name>GitHub testriaz Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/testriaz/test-pkg-repo</url>
 		</repository>
 	</distributionManagement>
-	<developers>
+<!--	<developers>
 		<developer>
 			<name>Test riaz</name>
 			<email>riaz.engg@gmail.com</email>
-			<organization>com.github.manjunathprabhakar</organization>
-			<organizationUrl>https://github.com/testriaz/github-example-package</organizationUrl>
+			<organization>com.github.testriaz</organization>
+			<organizationUrl>https://github.com/testriaz/test-pkg-repo</organizationUrl>
 		</developer>
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/ManjunathPrabhakar/github-example-package.git</connection>
-		<developerConnection>scm:git:https://github.com/ManjunathPrabhakar/github-example-package.git
+		<connection>scm:git:https://github.com/testriaz/test-pkg-repo.git</connection>
+		<developerConnection>scm:git:https://github.com/testriaz/test-pkg-repo.git
 		</developerConnection>
-		<url>https://github.com/ManjunathPrabhakar/github-example-package</url>
+		<url>https://github.com/testriaz/test-pkg-repo</url>
 		<tag>github-example-package</tag>
 	</scm>
 
@@ -69,7 +69,7 @@
 					<artifactId>maven-plugin-plugin</artifactId>
 					<version>3.6.0</version>
 					<configuration>
-						<!-- see http://jira.codehaus.org/browse/MNG-5346 -->
+						&lt;!&ndash; see http://jira.codehaus.org/browse/MNG-5346 &ndash;&gt;
 						<skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
 					</configuration>
 				</plugin>
@@ -97,6 +97,6 @@
 				<version>3.0.0-M1</version>
 			</plugin>
 		</plugins>
-	</build>
+	</build>-->
 
 </project>
