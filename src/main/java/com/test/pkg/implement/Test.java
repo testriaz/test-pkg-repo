@@ -7,7 +7,7 @@ public class Test {
         }
 
         public void someFunc(){
-            System.out.println("Testing.someFunc");
+            System.out.println("Testing.someFuncq23");
         }
 
 }
