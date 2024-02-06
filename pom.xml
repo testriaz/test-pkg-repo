@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.test.pkg</groupId>
 	<artifactId>test-pkg-proj</artifactId>
-	<version>1.2</version>
+	<version>1.4</version>
 	<name>test-pkg-proj</name>
 	<description>test-pkg-proj</description>
 	<properties>
